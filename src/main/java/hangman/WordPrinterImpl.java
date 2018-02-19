@@ -3,7 +3,7 @@ package hangman;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
-public class WordPrinterImpl {
+public class WordPrinterImpl implements WordPrinter {
 
     private Word word;
     private PrintStream printStream;
